@@ -1,0 +1,2 @@
+// Video 4 học về cú pháp trả về JSX
+- Cách in giá trị Javascript vào html 
