@@ -1,2 +1,6 @@
-// Video 4 học về cú pháp trả về JSX
-- Cách in giá trị Javascript vào html 
+// Video 5
+
+định nghĩa root 
+- mình có thể hiểu root là bố cục chính bố cục chính đó thì bao gồm các bố cục nhỏ bên trong
+
+
