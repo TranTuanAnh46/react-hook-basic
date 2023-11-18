@@ -3,4 +3,6 @@
 định nghĩa root 
 - mình có thể hiểu root là bố cục chính bố cục chính đó thì bao gồm các bố cục nhỏ bên trong
 
+- trong video 5 này chủ yếu là dậy về tạo ra 1 component (Nav.js) là thanh navigation => sau đó gán nó vào component chính là root (ở đây là App.js)
+
 
