@@ -4,3 +4,4 @@
 - đầu tiên là xử lý event của 1 button trên màn hình 
 
 - video cách chúng ta lấy event từ html rồi nhận event trong compenent để xử lý
+- xem kỹ App.js
