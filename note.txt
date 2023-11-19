@@ -1,15 +1,6 @@
-// Video 6
+// Video 7
 
-Trong video 6 dậy chúng ta về cách nhúng css và cách dùng css
+- chúng ta sẽ học về xử lý event
+- đầu tiên là xử lý event của 1 button trên màn hình 
 
-cách 1 - In line style 
-<p style={{ color: "red", fontSize: "20px", marginTop: "15px" }}>Hello Newbie</p>
-viết theo cú pháp trên đọc file (App.js)
-
-
-- cài package sass ( đọc lại phần này )
-package sass dùng cho việc quản lý scss hiệu quả hơn
-câu lệnh tạo package sass npm install --save-dev sass
-package sass dùng hỗ trợ cho viết code scss thay vì viết css 
-
-- nên dành 1 2 tiếng để học riêng về cú pháp của scss ( trên w3school)
+- video cách chúng ta lấy event từ html rồi nhận event trong compenent để xử lý
