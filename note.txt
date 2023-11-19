@@ -1,7 +1,9 @@
-// Video 7
+// Video 8
 
-- chúng ta sẽ học về xử lý event
-- đầu tiên là xử lý event của 1 button trên màn hình 
+- chúng ta sẽ làm quen với định nghĩa hook
 
-- video cách chúng ta lấy event từ html rồi nhận event trong compenent để xử lý
-- xem kỹ App.js
+- phần này là const [name, setName] = useState('Eric'); liên quan tới destructuring đọc thêm về phần này 
+
+- trong phần video này chủ yếu học về bắt sự kiện 
++ các mà chúng ta dùng hàm set để re-render lại dữ liệu 
++ Đọc kỹ lại phần App.js
