@@ -1,8 +1,15 @@
-// Video 5
+// Video 6
 
-định nghĩa root 
-- mình có thể hiểu root là bố cục chính bố cục chính đó thì bao gồm các bố cục nhỏ bên trong
+Trong video 6 dậy chúng ta về cách nhúng css và cách dùng css
 
-- trong video 5 này chủ yếu là dậy về tạo ra 1 component (Nav.js) là thanh navigation => sau đó gán nó vào component chính là root (ở đây là App.js)
+cách 1 - In line style 
+<p style={{ color: "red", fontSize: "20px", marginTop: "15px" }}>Hello Newbie</p>
+viết theo cú pháp trên đọc file (App.js)
 
 
+- cài package sass ( đọc lại phần này )
+package sass dùng cho việc quản lý scss hiệu quả hơn
+câu lệnh tạo package sass npm install --save-dev sass
+package sass dùng hỗ trợ cho viết code scss thay vì viết css 
+
+- nên dành 1 2 tiếng để học riêng về cú pháp của scss ( trên w3school)

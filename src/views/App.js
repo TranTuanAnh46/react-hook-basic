@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.scss';
-import Nav from './Nav.js'
 const App = () => {
   let name = "Eric";
   let number = 2021
@@ -8,10 +7,11 @@ const App = () => {
   let link = `https://viettuts.vn/java-string/lop-stringbuilder-trong-java`;
   return (
     <div className="App">
-      <Nav />
+      {console.log(`check object : `, object)}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hello world with React and {name} in {number}!</h1>
+        <p style={{ color: "red", fontSize: "20px", marginTop: "15px" }}>Hello Newbie</p>
         <a href={link} target='_blank'>Click here</a>
       </header>
     </div>
