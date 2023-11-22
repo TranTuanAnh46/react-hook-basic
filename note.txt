@@ -1,9 +1,8 @@
-// Video 8
+// Video 10
 
-- chúng ta sẽ làm quen với định nghĩa hook
+- có 1 lưu ý cần chú ý :
++ định nghĩa merge state : 
+Đối với class thì nó sẽ tự merge state (nghĩa là merge state cũ và state mới với nhau)
+Nhưng đối với Hook thì sẽ không merge tự động (mà mình sẽ phải tự merge)
 
-- phần này là const [name, setName] = useState('Eric'); liên quan tới destructuring đọc thêm về phần này 
-
-- trong phần video này chủ yếu học về bắt sự kiện 
-+ các mà chúng ta dùng hàm set để re-render lại dữ liệu 
-+ Đọc kỹ lại phần App.js
+trong video 10 này thì ông anh đang hướng dẫn merge State với nhau - vì mình đang dùng hook (search từ khóa trên google  spread syntax array )
