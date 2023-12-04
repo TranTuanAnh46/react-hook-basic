@@ -1,16 +1,5 @@
-// Video 10
+// Video 11
 
-- có 1 lưu ý cần chú ý :
-+ định nghĩa merge state : 
-Đối với class thì nó sẽ tự merge state (nghĩa là merge state cũ và state mới với nhau)
-Nhưng đối với Hook thì sẽ không merge tự động (mà mình sẽ phải tự merge)
-
-trong video 10 này thì ông anh đang hướng dẫn merge State với nhau - vì mình đang dùng hook (search từ khóa trên google  spread syntax array )
-
--khi muốn in ra từng phần tử của 1 List trong React thì ta sẽ dùng như bên dưới 
-
-          {todos.map(todo => {
-            return (
-              <li className="todo-child" key={todo.id}>{todo.title}</li>
-            )
-          })}
+video 11 học về khai báo 1 prop 
+cách đặt tên và dùng prop
+- prop chỉ đc dùng để truyền dữ liệu từ cho tới con 

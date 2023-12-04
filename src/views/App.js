@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.scss';
 import Nav from './Nav.js'
 import { useState } from 'react';
-
+import Todo from './Todo.js';
 const App = () => {
   let [name, setName] = useState('Eric');
   const [address, setAddress] = useState('');
@@ -33,20 +33,18 @@ const App = () => {
     console.log(event.target.value)
   }
 
+  //myData là tên của prop còn phía bên phải là giá trị mà bạn muốn truyền đi
   return (
     <div className="App">
       <Nav />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hello world with React and {name}!</h1>
-        <div className="todos-container">
-          {todos.map(todo => {
-            return (
-              <li className="todo-child" key={todo.id}>{todo.title}</li>
-            )
-          })}
+        <Todo
+          myData={todos}
+        />
 
-        </div>
+
         <input type="text" value={address} onChange={(event) => { handleOnchangeInput(event) }}></input>
         <button type="button" onClick={(event) => { handleEventClick(event) }}>Click me</button>
       </header>
